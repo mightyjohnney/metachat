@@ -26,7 +26,7 @@ public class ChatClient
         }
         try
         {
-            String name = javax.swing.JOptionPane.showInputDialog("Enter the name:");
+            String name = javax.swing.JOptionPane.showInputDialog("Enter the unique name:");
             String ipadd = javax.swing.JOptionPane.showInputDialog("Enter the ip:");
             String sport = javax.swing.JOptionPane.showInputDialog("Enter the port number:");
             if(((name!=null)||(!name.isEmpty()))&&((sport!=null)||(!sport.isEmpty())))
