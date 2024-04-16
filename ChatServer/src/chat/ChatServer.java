@@ -27,7 +27,7 @@ public class ChatServer
         try
         {
             String name = javax.swing.JOptionPane.showInputDialog(null, "Enter the server's name:", "Input", JOptionPane.QUESTION_MESSAGE);
-            String sport = javax.swing.JOptionPane.showInputDialog("Enter a port number:");
+            String sport = javax.swing.JOptionPane.showInputDialog("Enter any port number:");
             if(((name!=null)||(!name.isEmpty()))&&((sport!=null)||(!sport.isEmpty())))
             {
                 server = new Server(name, Integer.parseInt(sport));
