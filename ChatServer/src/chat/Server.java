@@ -280,7 +280,7 @@ public class Server extends javax.swing.JFrame
                 }
                 catch(EOFException eofe)
                 {
-                    showMessage("Server ended connection!");
+                    showMessage("Server ended connection promptly!");
                 }
                 finally
                 {
